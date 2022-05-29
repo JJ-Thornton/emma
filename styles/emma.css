@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'euphoria_scriptregular';
+    src: url('fonts/euphoria/euphoriascript-regular-webfont.woff2') format('woff2'),
+         url('fonts/euphoria/euphoriascript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --light: #fdcbf0;
+    --hot: #FF69B4;
+    --dark: #8A0050;
+    --font: #0085D2;
+    --links: #D84B85;
+}
+
+body {
+    font-family: euphoria_scriptregular;
+    font-size: 12px;
+    background-color: var(--hot) ;
+}
+
+.emma {
+    margin: 2em 0 0 4.75em;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.main-card-1 {
+    width: 35em;
+    height: 100%;
+    background-color: var(--light);
+    border-radius: 10px;
+    margin: 5em auto;
+    padding: 2em;
+}
+
+.content {
+    text-align: center;
+}
+
+.hero-1 {
+    font-size: 5em;
+    color: var(--font);
+}
+
+.phone {
+    padding: .5em;
+    font-size: 3em;
+    color: var(--font);
+}
+
+.email {
+    font-size: 3em;
+    color: var(--font);
+}
+
+a {
+    color: var(--links);
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 500px) {
+    .emma {
+        margin: 2em 0 0 0;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+    
+    .main-card-1 {
+        width: 25em;
+        height: 100%;
+        background-color: var(--light);
+        border-radius: 10px;
+        margin: 10em auto;
+        padding: 2em;
+    }
+    
+    .content {
+        text-align: center;
+    }
+    
+    .hero-1 {
+        font-size: 5em;
+        color: var(--font);
+    }
+    
+    .phone {
+        padding: .5em;
+        font-size: 3em;
+        color: var(--font);
+    }
+    
+    .email {
+        font-size: 3em;
+        color: var(--font);
+    }
+    
+    a {
+        color: var(--links);
+        text-decoration: none;
+    }
+}
